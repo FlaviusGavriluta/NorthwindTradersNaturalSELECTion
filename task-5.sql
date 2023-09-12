@@ -1,1 +1,4 @@
--- YOUR SOLUTION HERE
+SELECT DISTINCT ship_country AS ship_country_97
+FROM orders
+WHERE EXTRACT(YEAR FROM shipped_date) = 1997
+ORDER BY ship_country;
